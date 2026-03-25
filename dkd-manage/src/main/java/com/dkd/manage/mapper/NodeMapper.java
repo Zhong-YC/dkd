@@ -2,6 +2,7 @@ package com.dkd.manage.mapper;
 
 import java.util.List;
 import com.dkd.manage.domain.Node;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 点位管理Mapper接口
@@ -9,6 +10,7 @@ import com.dkd.manage.domain.Node;
  * @author itheima
  * @date 2026-03-24
  */
+@Mapper
 public interface NodeMapper 
 {
     /**

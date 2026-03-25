@@ -67,7 +67,7 @@ public interface RegionMapper
      * 查询区域管理列表（包含节点数量）
      *
      * @param region 区域管理
-     * @return 区域管理集合
+     * @return 区域管理集合（包含节点数量）
      */
-    public List<RegionVo> selectRegionVoList(Region region);
+    List<RegionVo> selectRegionVoList(Region region);
 }

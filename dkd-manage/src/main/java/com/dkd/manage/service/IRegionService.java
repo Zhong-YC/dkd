@@ -1,7 +1,10 @@
 package com.dkd.manage.service;
 
 import java.util.List;
+
+import com.dkd.manage.domain.Partner;
 import com.dkd.manage.domain.Region;
+import com.dkd.manage.domain.Vo.PartnerVo;
 import com.dkd.manage.domain.Vo.RegionVo;
 
 /**
@@ -67,4 +70,6 @@ public interface IRegionService
      * @return 区域管理集合（包含节点数量）
      */
     public List<RegionVo> selectRegionVoList(Region region);
+
+
 }
